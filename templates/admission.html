@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container-fluid mx-auto shadow-lg pb-4">
+    <h1 class="display-5 fw-bold lh-1 my-4 py-3 text-center">Courses and Intake</h1>  
+    <img src="/static/intake.png" width="1100" class="rounded mx-auto d-block" alt="...">
+</div>    
+<div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-5 pb-4 fw-bold">Cut Offs & Fee Structure</h1>
+    
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="/static/cutoff.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+</div>
+<div class="container text-center">
+    
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark "><a href="https://www.vit.edu/images/Admissions/FYBTECH_3YEARS_CUT_OFFS_21-22.pdf"class="link-dark">1. Full Cutoff List</a></li>
+        <li class="list-group-item list-group-item-dark "><a href="https://www.vit.edu/images/Admissions/Fees_structure_2021-22_fresh_admissions.pdf"class="link-dark">2. Fees Structure</a></li>  
+    </ul>
+</div>
+{% endblock body %}
